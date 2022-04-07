@@ -1,0 +1,144 @@
+/*----------------------------- GENERAL /*-----------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/public/images/bg.jpg');
+    background-size: 1900px 822px;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 0;
+    text-align: center;
+}
+h2,h3,h4{
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.5vw;
+    
+}
+h5{
+    font-size: medium;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.1vh;
+    color: #aaa7a7;
+    margin-top: 0.5vw;
+}
+hr{
+    border-color: grey;
+    background-color: gray;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.title1{
+    margin-bottom: 0 !important;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+.title1 > h1{
+    margin-bottom: 0;
+}
+.title1 > h5{
+    margin-top: 0;
+
+}
+.container-g{
+    width: 75%;
+    margin: 6vw auto;
+}
+section:nth-of-type(1){
+    background: #FFFFFF;
+}
+.photo1 img{
+    width: 100%;
+}
+.title2,
+.container{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 9vw;
+}
+.presentation{
+    padding: 5vw;
+}
+section:nth-of-type(2){
+    background: #1E1F23;
+    padding: 5.85vw;
+    margin: 0 auto;
+}
+.container {
+    background: #121315;
+    /* width: fit-content; */
+    margin: 0;
+    position: relative;
+    padding-top: 1vw;
+}
+.center{
+    width: fit-content;
+}
+.header{
+    width: fit-content;
+    margin: 0 auto;
+    color:white;
+    
+}
+div.images{
+
+
+}
+.images{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container-4 img{
+    width: 100%;
+    height: 100%;
+}
+.container-4 .description{
+    padding: 10vw 5vw;
+}
+.container1,
+.container2,
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: white;
+}
+.container2 .description h3{
+    display: flex;
+    justify-content: flex-end;
+}
+.container2 .description p{
+    text-align: end;
+    color: #aaa7a7;
+}
+.container2{
+    background: #121315;
+    color: white;
+}
+footer{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    color: white;
+    padding-top: 5vw;
+}
+.log{
+    display: flex;
+
+}
+.log i{
+    font-size: xx-large;
+    margin: 1vw;
+}
+.underline{
+    text-decoration: underline;
+}
